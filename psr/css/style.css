@@ -1,0 +1,75 @@
+a:hover {
+  text-decoration: none !important; }
+a:-webkit-any-link {
+  text-decoration: none !important; }
+
+.hero-wrapper {
+  height: 50vh;
+  background-color: red;
+  background-image: url("http://localhost/wordpress2/wp-content/uploads/2017/07/dhow-cruise.jpg");
+  background-size: cover;
+  background-position: top center;
+  width: 100%; }
+
+.negative-space {
+  margin-top: -10rem !important; }
+
+.social div {
+  padding: 0.5rem;
+  width: 42px;
+  height: 42px;
+  text-align: center; }
+  .social div i {
+    font-size: 25px; }
+
+/*
+* COLOR SPACES
+*/
+.bg-facebook {
+  background-color: #3b5998;
+  color: white; }
+
+.bg-google {
+  background-color: #d34836;
+  color: white; }
+
+.bg-twitter {
+  background-color: #0084b4;
+  color: white; }
+
+.bg-whatsapp {
+  background-color: #25d366;
+  color: white; }
+
+.bg-vk {
+  background-color: #45668e;
+  color: white; }
+
+.bg-tumblr {
+  background-color: #35465c;
+  color: white; }
+
+/*
+*	FILTERS
+*/
+.blur-2 {
+  filter: blur(10px); }
+
+/*
+* 	OVERIDES
+*/
+.img-fluid-4 {
+  max-width: 40%;
+  height: auto; }
+
+/*************************************************
+*	MEDIA BREAKPOINTS
+*************************************************/
+@media (max-width: 575px) {
+  .hidden-xs {
+    display: none !important; } }
+@media (max-width: 767px) {
+  .hidden-sm {
+    display: none !important; } }
+
+/*# sourceMappingURL=style.css.map */
